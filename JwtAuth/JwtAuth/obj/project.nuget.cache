@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6eWv6DaQNIZTuj8cJYjfTeQjdTSfsI+wK+SfdWWflwN6kBl8ux7PuE2tRCXuz20+Q1zi63g/g3pm+b2RA2HhKg==",
+  "dgSpecHash": "ku695H8QGNDI02Eht/3k7t5oLRl6vGAn8EPEVRSfRk0Jn6R2T3pr6AjJH4rnl4quA98u/WXHM40gZKu/EQ8Pgw==",
   "success": true,
   "projectFilePath": "C:\\Users\\canbe\\OneDrive\\Masaüstü\\WebAPI-JwtAuthentication\\JwtAuth\\JwtAuth\\JwtAuth.csproj",
   "expectedPackageFiles": [
@@ -51,7 +51,10 @@
     "C:\\Users\\canbe\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\canbe\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\canbe\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\canbe\\.nuget\\packages\\scrutor\\3.3.0\\scrutor.3.3.0.nupkg.sha512",
     "C:\\Users\\canbe\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\canbe\\.nuget\\packages\\swashbuckle.aspnetcore.filters\\7.0.8\\swashbuckle.aspnetcore.filters.7.0.8.nupkg.sha512",
+    "C:\\Users\\canbe\\.nuget\\packages\\swashbuckle.aspnetcore.filters.abstractions\\7.0.8\\swashbuckle.aspnetcore.filters.abstractions.7.0.8.nupkg.sha512",
     "C:\\Users\\canbe\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\canbe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\canbe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",

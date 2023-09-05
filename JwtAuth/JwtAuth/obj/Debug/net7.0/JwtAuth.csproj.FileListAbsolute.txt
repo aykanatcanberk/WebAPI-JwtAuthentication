@@ -81,3 +81,6 @@ C:\Users\canbe\OneDrive\Masaüstü\WebAPI-JwtAuthentication\JwtAuth\JwtAuth\obj\
 C:\Users\canbe\OneDrive\Masaüstü\WebAPI-JwtAuthentication\JwtAuth\JwtAuth\obj\Debug\net7.0\JwtAuth.pdb
 C:\Users\canbe\OneDrive\Masaüstü\WebAPI-JwtAuthentication\JwtAuth\JwtAuth\obj\Debug\net7.0\JwtAuth.genruntimeconfig.cache
 C:\Users\canbe\OneDrive\Masaüstü\WebAPI-JwtAuthentication\JwtAuth\JwtAuth\obj\Debug\net7.0\ref\JwtAuth.dll
+C:\Users\canbe\OneDrive\Masaüstü\WebAPI-JwtAuthentication\JwtAuth\JwtAuth\bin\Debug\net7.0\Scrutor.dll
+C:\Users\canbe\OneDrive\Masaüstü\WebAPI-JwtAuthentication\JwtAuth\JwtAuth\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\canbe\OneDrive\Masaüstü\WebAPI-JwtAuthentication\JwtAuth\JwtAuth\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
