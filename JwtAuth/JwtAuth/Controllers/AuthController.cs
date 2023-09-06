@@ -1,4 +1,5 @@
 ﻿using JwtAuth.Core.Dtos;
+using JwtAuth.Core.Entities;
 using JwtAuth.Core.OtherObjects;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -16,10 +17,10 @@ namespace JwtAuth.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        private readonly UserManager<IdentityUser> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IConfiguration _configuration;
-        public AuthController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration)
+        public AuthController(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration)
         {
             _userManager = userManager;
             _roleManager = roleManager;
@@ -49,8 +50,10 @@ namespace JwtAuth.Controllers
             if (isExist != null)
                 return BadRequest("Username already exists.");
 
-            IdentityUser newUser = new IdentityUser()
+            ApplicationUser newUser = new ApplicationUser()
             {
+                FirstName=registerDto.FirstName,
+                LastName=registerDto.LastName,
                 UserName = registerDto.UserName,
                 Email = registerDto.Email,
                 SecurityStamp = Guid.NewGuid().ToString()
@@ -87,7 +90,9 @@ namespace JwtAuth.Controllers
             {
              new Claim(ClaimTypes.Name, user.UserName),
              new Claim(ClaimTypes.NameIdentifier, user.Id),
-             new Claim("JWTID", Guid.NewGuid().ToString())
+             new Claim("JWTID", Guid.NewGuid().ToString()),
+             new Claim("FirstName",user.FirstName),
+             new Claim("LastName",user.LastName)
             };
 
             foreach (var role in userRoles)
