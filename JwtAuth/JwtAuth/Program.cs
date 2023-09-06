@@ -1,5 +1,7 @@
 using JwtAuth.Core.DataBase;
 using JwtAuth.Core.Entities;
+using JwtAuth.Core.Interfaces;
+using JwtAuth.Core.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -81,7 +83,9 @@ builder.Services
         };
     });
 
+builder.Services.AddScoped<IAuthService, AuthService>();
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -89,6 +93,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
 
 app.UseHttpsRedirection();
 
